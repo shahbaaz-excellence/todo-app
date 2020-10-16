@@ -1,8 +1,90 @@
-.App {
+h1 {
   text-align: center;
 }
 
-.App-logo {
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#input{
+  height: 1.3rem;
+}
+
+#addtodo{
+  padding: 6px;
+  border-radius: 3px;
+  background-color: rgb(53, 120, 196);
+  color: white;
+  border: none;
+}
+
+ul{
+  list-style-type:none;
+  padding-inline-start: 0;
+}
+
+input[type=checkbox]{
+  margin-right: 10px;
+}
+
+#todolist{
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+li{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.delete{
+  float: right;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#input{
+  margin-right: 10px;
+}
+
+#inputdate{
+  margin-right: 10px;
+}
+
+.date{
+  float: right;
+  margin-right: 10px;
+}
+
+#sort{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: rgb(53, 120, 196);
+  color: white;
+  border: none;
+}
+
+
+/* .active{
+  text-decoration: line-through;
+  color: grey;
+} */
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +117,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
